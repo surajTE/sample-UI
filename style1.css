@@ -1,0 +1,151 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    box-shadow: 0px 0px 12px -4px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.hero .cart {
+    width: 40%;
+}
+
+.cart h1 {
+    font-family: 'Spinnaker', sans-serif;
+    text-shadow: 6px 2px 3px #c3bdbd;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.about .cart1 {
+    width: 40%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cart1 h1 {
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.cart1 p {
+    text-align: justify;
+    font-size: 21px;
+    margin: 2rem;
+}
+
+.about img {
+    width: 100%;
+}
+
+.service {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.service h1 {
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.service_info {
+    display: flex;
+    justify-content: center;
+}
+
+.service_info .serv {
+    width: 15rem;
+    margin: 3rem 2rem;
+    padding: 15px;
+    text-align: start;
+    box-shadow: 0px 0px 25px -15px;
+    border-radius: 25px;
+}
+
+.serv img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.serv p {
+    text-align: justify;
+    margin: revert;
+}
+
+.serv button {
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.contact {
+    text-align: center;
+    margin: 3rem;
+}
+
+.contact_form {
+    width: 20rem;
+    margin: auto;
+    box-shadow: 0px 0px 20px -10px;
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.contact h1 {
+    margin: 3rem;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.contact_form input {
+    border: 1px solid #00000040;
+    padding: 10px 15px;
+    width: 90%;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #fff;
+    outline: none;
+}
+
+.contact_form h1 {
+    font-size: 17px;
+    margin: 10px 0;
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: 100;
+}
+
+.contact_form button {
+    padding: 12px 39px;
+    font-size: 15px;
+    margin-top: 25px;
+    border-radius: 27px;
+    background: #f1f3f4;
+    border: 1px solid #00000029;
+    box-shadow: 0px 0px 10px -8px;
+}
